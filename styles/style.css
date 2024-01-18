@@ -324,3 +324,149 @@
     text-align: center;
     margin-top: 40px;
 }
+
+
+/* simple */
+.simple-item{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.simple-text-lost ul{
+    font-weight: bold;
+    
+}
+.simple-text-lost h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.simple-text-lost p{
+    color: #5A5A5D;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.simple-text-lost ul li{
+    margin: 15px;
+}
+/* news latter */
+.newslater{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.news-text {
+    border: 1px solid #FF4900;
+    width: 25%;
+    border-radius: 5px;
+    
+    
+}
+.newslater h1{
+    font-size: 26px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.newslater p{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+form input{
+    padding: 10px 50px;
+    margin-top: 7px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+}
+
+.news-img{
+    width: 50%;
+    position: relative;
+}
+.div{
+    height: 80px;
+    width: 200px;
+    background: rgba(255,73,0);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    position: absolute;
+   bottom: 70%;
+   left: 66%;
+   top: 76%;
+   transform: rotate(-25deg) scale(1.1) translateX(47px);
+
+}
+.com{
+    
+}
+.com p{
+    font-size: 18px;
+    color: #FFF;
+    text-align: center;
+    
+}
+.com h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+.btn-secondary {
+    padding: 15px 100px;
+    border: none;
+    border-radius: 8px;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    background: #FF5400;
+}
+/* fotter-sectio */
+.footer-section{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px;
+    margin-top: 40px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.another{
+    text-align: center;
+}
+.ancor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 25px;
+    font-size: 26px;
+    margin-bottom: 30px;
+   
+}
+.fa-brands{
+    color: #131318;
+    font-weight: bold;
+
+}
+hr{
+    background: rgba(255, 255, 255, 0.15);
+}
+.last{
+    text-align: center;
+    margin-top: 50px;
+}
