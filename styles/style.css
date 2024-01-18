@@ -127,7 +127,8 @@
 }
 .destination h1{
     font-size: 45px;
-    font-weight: bold;
+    font-weight: 800;
+    margin-bottom: 20px;
 }
 .destination p{
     color: rgba(19, 19, 24, 0.70);
@@ -200,7 +201,126 @@
 }
 .travel-text h1{
     font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 20px;
 }
 .travel-text p{
     font-size: 18px;
+}
+/* discount seciton */
+.deals{
+    text-align: center;
+    margin-top: 20px;
+}
+.deals h1{
+    font-size: 35px;
+    margin-top: 10px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.deals p{
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+.satoroni{
+    background-image: url('../images/./fast-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    padding: 130px 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+.satoroni-text{
+    border: 1px solid red;
+    width: 500px;
+    height: 229px;
+    padding: 30px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    
+    
+}
+.satoroni-text p{
+    color: #5A5A5D;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px;
+}
+/* .sto-icon span {
+    color: #FF5400;
+} */
+.fa-solid{
+    color: #FF5400;
+    margin: 7px 7px;
+}
+.satoroni-text h3{
+    font-size: 30px;
+}
+.satoroni-text h6{
+    font-size: 16px;
+    color: #5A5A5D;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.satoroni-text h4{
+    color: #FF5400;
+    font-weight: 900;
+    font-size: 25px;
+    padding: 10px;
+}
+.satoroni-div{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    align-items: center;
+
+}
+/*  */
+.satoroni-1{
+    background-image: url('../images/fats-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    padding: 130px 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+.satoroni-div-2{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+    align-items: center;
+
+}
+/*  */
+.satoroni-3{
+    background-image: url('../images/fast-3.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    padding: 130px 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+.satoroni-div-4{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    align-items: center;
+
+}
+/* pakage */
+.package{
+    text-align: center;
+    margin-top: 40px;
 }
