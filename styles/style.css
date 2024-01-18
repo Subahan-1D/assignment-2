@@ -191,3 +191,16 @@
     align-items: center;
     margin-top: 20px;
 }
+.main-section{
+    
+}
+.travel-text{
+    text-align: center;
+    margin-top: 30px;
+}
+.travel-text h1{
+    font-size: 35px;
+}
+.travel-text p{
+    font-size: 18px;
+}
